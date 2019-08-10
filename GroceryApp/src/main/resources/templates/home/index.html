@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layout/master-layout}">
+<head>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/home/index.css}"/>
+    <title>Grocery App - Home</title>
+</head>
+<body>
+<th:block layout:fragment="content">
+    <h3>Wellcome to GoldenDome Market</h3>
+    <hr/>
+    <div style="font-size: 1em">
+            <!--       Content Goes Here-->
+    </div>
+</th:block>
+
+<th:block layout:fragment="footer"></th:block>
+
+</body>
+</html>
